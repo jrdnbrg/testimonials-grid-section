@@ -19,6 +19,10 @@ main {
 .review-daniel {
   grid-area: 1 / 1 / auto / span 2;
   background-color: hsl(263, 55%, 52%);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right 60px top 0;
+  background-size: 100px;
 }
 
 .review-jonathan {
