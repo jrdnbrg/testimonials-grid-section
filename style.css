@@ -42,7 +42,26 @@ header {
 
 .profile-img {
   width: 30px;
-  border-radius: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.review-daniel .profile-img {
+  border-color: hsl(264, 82%, 80%);
+}
+
+.review-jonathan .profile-img {
+  border-color: hsl(0, 0%, 81%);
+}
+
+.review-jeanette .profile-img,
+.review-kira .profile-img {
+  border-color: hsl(214, 17%, 92%);
+}
+
+.review-patrick .profile-img {
+  border-color: hsl(263, 55%, 52%);
 }
 
 .name {
