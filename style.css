@@ -1,3 +1,8 @@
+p,
+h1 {
+  margin: 0;
+}
+
 body {
   font-family: Barlow Semi Condensed, Arial;
   font-weight: 500;
@@ -14,6 +19,49 @@ main {
   grid-template-columns: 300px 300px 300px 300px;
   gap: 25px 30px;
   place-content: center;
+}
+
+.review-daniel,
+.review-jonathan,
+.review-jeanette,
+.review-patrick,
+.review-kira {
+  border-radius: 8px;
+  box-shadow: 50px 50px 30px hsla(219, 29%, 14%, 0.1);
+  padding: 35px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.name-status-container {
+  padding-left: 15px;
+}
+
+.profile-img {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.name {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.course-status {
+  
+}
+
+h1 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.review-text {
+
 }
 
 .review-daniel {
