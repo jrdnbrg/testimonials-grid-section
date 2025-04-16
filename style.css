@@ -15,8 +15,8 @@ body {
 main {
   height: 100%;
   display: grid;
-  grid-template-rows: 300px 300px;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 280px;
+  grid-template-columns: 260px 260px 260px 260px;
   gap: 25px 30px;
   place-content: center;
 }
@@ -34,7 +34,6 @@ main {
 header {
   display: flex;
   align-items: center;
-  padding-bottom: 15px;
 }
 
 .name-status-container {
@@ -57,11 +56,11 @@ header {
 
 h1 {
   font-size: 20px;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 .review-text {
-
+  line-height: 19px;
 }
 
 .review-daniel {
